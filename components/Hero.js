@@ -52,7 +52,7 @@ export default function Hero() {
                     money
                   </span>
                 </h1>
-                <p className="mt-6 text-xl text-gray-500">
+                <p className="mt-6 text-l text-gray-500">
                   Expense Buddy is one of the most elegant expense and budget
                   trackers available. This buddy is here to assist you with an
                   interactive, personalized chart that shows all history and
