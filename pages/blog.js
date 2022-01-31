@@ -6,7 +6,7 @@ import Footer from 'components/Footer';
 const posts = [
     {
         title: 'Building Expense Buddy with SwiftUI #2',
-        href: '#',
+        href: '/blog/first-post',
         category: { name: 'Tutorial', href: '#' },
         description:
             'Today we will learn how to build the beautiful tab bar which is used across the app.',
@@ -16,7 +16,7 @@ const posts = [
     },
     {
         title: 'Building Expense Buddy with SwiftUI #1',
-        href: '#',
+        href: '/blog/first-post',
         category: { name: 'Tutorial', href: '#' },
         description:
             'Today we will learn how to build the horizontal category list which is used in the Transaction screen.',

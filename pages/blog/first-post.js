@@ -1,20 +1,37 @@
-import Link from 'next/link'
-import Header from 'components/Header.js';
-import PageHead from 'components/Head';
+import { getSortedPostsData } from '../../lib/posts'
 
-export default function Home() {
+
+export async function getStaticProps() {
+    const allPostsData = await getSortedPostsData()
+    return {
+        props: {
+            allPostsData
+        }
+    }
+}
+
+export default function Home({ allPostsData }) {
     return (
         <div>
-            <PageHead />
+            {/* Keep the existing code here */}
 
-            <Header />
-            <h1>First Post</h1>
-            <h2>
-                <Link href="/blog">
-                    <a>Back to home</a>
-                </Link>
-            </h2>
-            <Footer />
+            {/* Add this <section> tag below the existing <section> tag */}
+            <section >
+                <h2 >Blog</h2>
+                <ul >
+                    {allPostsData.map(({ id, date, title, description }) => (
+                        <li>
+                            {title}
+                            <br />
+                            {id}
+                            <br />
+                            {date}
+                            <br />
+                            {description}
+                        </li>
+                    ))}
+                </ul>
+            </section>
         </div>
     )
 }

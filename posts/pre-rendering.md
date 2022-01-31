@@ -1,5 +1,6 @@
 ---
 title: 'Two Forms of Pre-rendering'
+description: 'some description'
 date: '2020-01-01'
 ---
 
