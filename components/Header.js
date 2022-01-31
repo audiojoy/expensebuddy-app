@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-10 shadow-md">
       <Popover className="relative bg-white">
-        <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+        <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-4 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
           <div className="flex justify-start lg:w-0 lg:flex-1 items-center space-x-2">
             <a href="/">
               <span className="sr-only">ExpenseBuddy.app</span>
@@ -47,9 +47,12 @@ export default function Header() {
                 alt="Logo"
               />
             </a>
-            <span className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-blue-400">
+            <a
+              href="/"
+              className="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-blue-400"
+            >
               Expense Buddy
-            </span>
+            </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
