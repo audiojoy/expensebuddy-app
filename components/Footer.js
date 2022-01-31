@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   main: [
-    { name: 'Twitter', href: 'https://twitter.com/dqhieu' },
+    { name: 'Blog', href: '/blog' },
     {
       name: 'Terms & Policy',
       href:
@@ -16,6 +16,7 @@ const navigation = {
       name: 'Contact',
       href: 'mailto:support@expensebuddy.app',
     },
+    { name: 'Twitter', href: 'https://twitter.com/dqhieu' },
   ],
 };
 

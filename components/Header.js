@@ -12,7 +12,7 @@ import {
 import { ChevronDownIcon } from '@heroicons/react/solid';
 
 const navigation = [
-  { name: 'Twitter', href: 'https://twitter.com/dqhieu' },
+  { name: 'Blog', href: '/blog' },
   {
     name: 'Terms & Policy',
     href:
@@ -27,6 +27,7 @@ const navigation = [
     name: 'Contact',
     href: 'mailto:support@expensebuddy.app',
   },
+  { name: 'Twitter', href: 'https://twitter.com/dqhieu' },
 ];
 
 function classNames(...classes) {
