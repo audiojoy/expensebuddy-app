@@ -1,6 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
 const items = [
   {
+    name: 'agallio',
+    rating: '⭐️⭐️⭐️⭐️⭐️',
+    title: 'Best Expense Tracker',
+    text:
+      'I tried many other expense tracker but nothing fits. I found that this app is what I was looking for. Nice and simple UI, also very intuitive. There’s no confusing buttons, or features. It is just a simple expense tracker with budgets that’s just work.',
+  },
+  {
     name: 'tonyatapple',
     rating: '⭐️⭐️⭐️⭐️⭐️',
     title: 'Open everyday',
@@ -37,7 +44,7 @@ export default function Testimonials() {
         </h2>
         <div className="text-center my-4">What our users say about us:</div>
         <div className="mt-6 pt-10">
-          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-12">
+          <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-12">
             {items.map((faq) => (
               <div key={faq.text} className="text-left">
                 <div className="text-lg leading-6 font-medium text-gray-900">
