@@ -1,6 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
 const items = [
   {
+    name: 'Kinpil',
+    rating: '⭐️⭐️⭐️⭐️⭐️',
+    title: 'Can’t beat it',
+    text:
+      'It’s seriously the best expense tracker. Every other app I’ve tried just does so many things so wrong. This gets *everything* right!',
+  },
+  {
     name: 'agallio',
     rating: '⭐️⭐️⭐️⭐️⭐️',
     title: 'Best Expense Tracker',
