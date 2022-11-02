@@ -50,13 +50,13 @@ const features = [
     icon: ColorSwatchIcon,
   },
   {
-    name: 'Minimalism theme',
+    name: 'Recurring Expense',
     text: 'Explore the simplicity and cleanliness look',
     icon: DeviceMobileIcon,
   },
   {
     name: 'Customization',
-    text: 'Customize your experience with your habit',
+    text: 'Eliminate the repetitive tasks with recurring expenses',
     icon: AdjustmentsIcon,
   },
 ];
