@@ -16,7 +16,7 @@ import {
 const features = [
   {
     name: 'Powerful Widgets',
-    text: 'Your spending habit at a glance right on your home screen',
+    text: 'Quickly view your spending habits from your home screen',
     icon: ViewGridAddIcon,
   },
   {
