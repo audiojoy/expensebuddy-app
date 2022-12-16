@@ -38,12 +38,12 @@ export default function Hero() {
               */}
               <div className="mt-6 sm:max-w-xl">
                 <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                  Keep track of your{' '}
+                  Efficiently manage your{' '}
                   <span className="text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-blue-600">
                     expenses
                   </span>
                   <br />
-                  make{' '}
+                  create{' '}
                   <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-pink-600">
                     budgets
                   </span>
