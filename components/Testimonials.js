@@ -47,7 +47,7 @@ export default function Testimonials() {
     <div className="bg-white text-center">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-900">
-          Helped 130+ users track expenses
+          Helped 1.73K users track their expenses and budgets
         </h2>
         <div className="text-center my-4">What our users say about us:</div>
         <div className="mt-6 pt-10">

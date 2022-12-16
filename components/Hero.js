@@ -53,11 +53,7 @@ export default function Hero() {
                   </span>
                 </h1>
                 <p className="mt-6 text-l text-gray-500">
-                  Expense Buddy is one of the most elegant expense and budget
-                  trackers available. This buddy is here to assist you with an
-                  interactive, personalized chart that shows all history and
-                  one-touch expense logging. All of which makes your expenses
-                  tracking and budgeting effortless than ever.
+                  Expense Buddy is a top-rated expense and budget tracking tool that provides a sleek and user-friendly interface. With its interactive, personalized chart, you can easily view your expense history and log new expenses with just a single touch. This tool simplifies the process of tracking and budgeting your expenses, making it effortless to manage your finances.
                 </p>
               </div>
               <div className="mt-4">
@@ -70,42 +66,8 @@ export default function Hero() {
                     className="w-40 transform transition-all hover:scale-110"
                     src="/assets/appstore.svg"
                   />
+                  
                 </a>
-              </div>
-              <div className="mt-6">
-                <div className="inline-flex items-center divide-x divide-gray-300">
-                  <div className="flex-shrink-0 flex pr-5">
-                    <StarIcon
-                      className="h-5 w-5 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-5 w-5 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-5 w-5 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-5 w-5 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                    <StarIcon
-                      className="h-5 w-5 text-yellow-400"
-                      aria-hidden="true"
-                    />
-                  </div>
-                  <div className="min-w-0 flex-1 pl-5 py-1 text-sm text-gray-500 sm:py-3">
-                    <span className="font-medium text-gray-900">
-                      Rated 5 stars
-                    </span>{' '}
-                    by over{' '}
-                    <span className="font-medium text-indigo-600">
-                      130+ users
-                    </span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

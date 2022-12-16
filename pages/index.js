@@ -20,7 +20,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Expense Buddy is one of the most elegant expense and budget trackers available. This buddy is here to assist you with an interactive, personalized chart that shows all history and one-touch expense logging. All of which makes your expenses tracking and budgeting effortless than ever."
+          content="Expense Buddy is a top-rated expense and budget tracking tool that provides a sleek and user-friendly interface. With its interactive, personalized chart, you can easily view your expense history and log new expenses with just a single touch. This tool simplifies the process of tracking and budgeting your expenses, making it effortless to manage your finances."
         />
 
         <meta property="og:type" content="website" />
@@ -31,7 +31,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Expense Buddy is one of the most elegant expense and budget trackers available. This buddy is here to assist you with an interactive, personalized chart that shows all history and one-touch expense logging. All of which makes your expenses tracking and budgeting effortless than ever."
+          content="Expense Buddy is a top-rated expense and budget tracking tool that provides a sleek and user-friendly interface. With its interactive, personalized chart, you can easily view your expense history and log new expenses with just a single touch. This tool simplifies the process of tracking and budgeting your expenses, making it effortless to manage your finances."
         />
         <meta
           property="og:image"
@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           property="twitter:description"
-          content="Expense Buddy is one of the most elegant expense and budget trackers available. This buddy is here to assist you with an interactive, personalized chart that shows all history and one-touch expense logging. All of which makes your expenses tracking and budgeting effortless than ever."
+          content="Expense Buddy is a top-rated expense and budget tracking tool that provides a sleek and user-friendly interface. With its interactive, personalized chart, you can easily view your expense history and log new expenses with just a single touch. This tool simplifies the process of tracking and budgeting your expenses, making it effortless to manage your finances."
         />
         <meta
           property="twitter:image"
